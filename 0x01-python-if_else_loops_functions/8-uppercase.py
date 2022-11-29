@@ -8,5 +8,5 @@ def uppercase(str):
             ch = ord(i)
         print("{:c}".format(ch), end='')
         
-     print("")
+    print("")
            
