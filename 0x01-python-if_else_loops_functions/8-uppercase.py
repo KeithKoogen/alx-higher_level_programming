@@ -7,6 +7,4 @@ def uppercase(str):
         else:
             ch = ord(i)
         print("{:c}".format(ch), end='')
-        
     print("")
-           
