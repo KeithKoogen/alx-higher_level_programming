@@ -10,7 +10,7 @@ if __name__ == '__main__':
 
     if arguments == 2:
         print(f"{arguments - 1} argument:")
-        print(f"1: {argv[1])
+        print(f"1: {argv[1]}")
 
     if arguments < 2:
         print(f"0 arguments.")
