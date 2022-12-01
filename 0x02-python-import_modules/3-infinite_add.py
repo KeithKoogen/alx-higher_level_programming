@@ -2,7 +2,7 @@
 def add_args(argv):
     count = 0;
     for i in range(len(argv)):
-        count += arv[i];
+        count += int(argv[i])
     return count
 
 if __name__ == '__main__':
