@@ -6,4 +6,3 @@ if __name__ == '__main__':
     for i in range(len(module_names)):
         if "__" not in module_names[i]:
             print(module_names[i])
-  
