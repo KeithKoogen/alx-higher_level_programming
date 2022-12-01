@@ -6,5 +6,3 @@ b = 2
 sum = add(a,b)
 print(f"{a} + {b} = {sum}")
 
-if __name__ == '__main__':
-  
