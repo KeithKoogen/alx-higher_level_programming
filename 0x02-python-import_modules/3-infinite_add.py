@@ -6,6 +6,7 @@ def add_args(argv):
             count += int(argv[i])
     return count
 
+
 if __name__ == '__main__':
     from sys import argv
     sum = add_args(argv)
