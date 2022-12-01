@@ -1,4 +1,4 @@
-from add_0 import add
+import add_0
 
 a = 1
 b = 2
