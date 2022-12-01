@@ -5,7 +5,7 @@ if __name__ == '__main__':
     arguments = len(argv)
     if arguments > 2:
         print(f"{arguments - 1} arguments:")
-        for i in range(1, arguments):
+        for i in range(1, arguments - 1):
             print(f"{i}: {argv[i])
 
     if arguments == 2:
