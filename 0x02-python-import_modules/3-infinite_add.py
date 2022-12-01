@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 def add_args(argv):
     count = 0;
-    for i in range(len(argv)):
-        count += int(argv[i])
+    if len(argv) > 1:
+        for i in range(1, len(argv)):
+            count += int(argv[i])
     return count
 
 if __name__ == '__main__':
