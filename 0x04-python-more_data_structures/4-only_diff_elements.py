@@ -12,3 +12,4 @@ def only_diff_elements(set_1, set_2):
     for i in set_2:
         if i not in dup_set:
             new_set.add(i)
+    return new_set
