@@ -2,8 +2,8 @@
 def square_matrix_simple(matrix=[]):
     new_matrix = matrix.copy()
     for row in new_matrix:
-        for i in row:
+        for i in range(len(row)):
             print(i)
-            i = i * i
+            row[i] = row[i] * row[i]
             print(i)
     return new_matrix
