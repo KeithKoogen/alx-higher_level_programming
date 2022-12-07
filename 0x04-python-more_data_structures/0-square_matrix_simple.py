@@ -4,6 +4,7 @@ def square_matrix_simple(matrix=[]):
     for row in new_matrix:
         for i in range(len(row)):
             print(i)
+            row[i] = row[i].copy()
             row[i] = row[i] * row[i]
             print(i)
     return new_matrix
